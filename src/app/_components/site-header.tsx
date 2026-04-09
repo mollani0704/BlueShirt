@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const navigationItems = [
-  { label: "회사소개", href: "#about" },
-  { label: "작업사례", href: "#cases" },
-  { label: "문의", href: "#contact" },
+  { label: "회사소개", href: "/company" },
+  { label: "작업사례", href: "/cases" },
+  { label: "문의", href: "/contact" },
 ];
 
 export function SiteHeader() {
