@@ -4,7 +4,7 @@ const quickLinks = [
   {
     href: "/company",
     label: "회사소개",
-    title: "청남방의 기준과 철학 보기",
+    title: "대주종합청소의 기준과 철학 보기",
     description:
       "브랜드가 어떤 방식으로 청소 품질과 신뢰를 관리하는지 소개합니다.",
   },
@@ -35,7 +35,7 @@ const strengths = [
     value: "02",
     title: "단정한 서비스 인상",
     description:
-      "청남방의 블루 앤 화이트 톤처럼 깔끔하고 신뢰감 있는 응대를 지향합니다.",
+      "대주종합청소의 블루 앤 화이트 톤처럼 깔끔하고 신뢰감 있는 응대를 지향합니다.",
   },
   {
     value: "03",
@@ -66,22 +66,23 @@ const workflow = [
 
 export default function Home() {
   return (
-    <div className="bg-[linear-gradient(180deg,#EFF6FF_0%,#FFFFFF_42%,#F8FBFF_100%)]">
+    <div className="bg-[linear-gradient(180deg,#EAF1FF_0%,#FFFFFF_42%,#F8FBFF_100%)]">
       <section className="mx-auto flex min-h-[calc(100vh-81px)] w-full max-w-7xl items-center px-6 py-20 sm:px-8 lg:px-10">
         <div className="grid w-full gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="max-w-3xl">
-            <p className="mb-5 inline-flex rounded-full border border-[#BFDBFE] bg-white px-4 py-1.5 text-sm font-semibold text-[#2563EB] shadow-sm">
-              BlueShirt Clean Service
+            <p className="mb-5 inline-flex rounded-full border border-[#BFDBFE] bg-white px-4 py-1.5 text-sm font-semibold text-[#1E3A8A] shadow-sm">
+              Daeju Total Cleaning Service
             </p>
             <h1 className="text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-5xl">
-              청남방의 첫인상은
+              대주종합청소의 첫인상은
               <br />
               깨끗하고 믿음직한 파란색에서 시작됩니다.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              청남방은 공간을 말끔하게 정리하는 것을 넘어, 고객이 안심하고 맡길 수
-              있는 청소 경험을 만드는 브랜드를 지향합니다. 이제 메인페이지는 각
-              소개 페이지로 이동하는 시작점 역할을 하도록 구성했습니다.
+              대주종합청소는 공간을 말끔하게 정리하는 것을 넘어, 고객이 안심하고
+              맡길 수 있는 청소 경험을 만드는 브랜드를 지향합니다. 이제
+              메인페이지는 각 소개 페이지로 이동하는 시작점 역할을 하도록
+              구성했습니다.
             </p>
           </div>
 
@@ -92,7 +93,7 @@ export default function Home() {
                 href={item.href}
                 className="rounded-[24px] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(37,99,235,0.08)] transition-transform duration-200 hover:-translate-y-1"
               >
-                <p className="text-xs font-bold tracking-[0.2em] text-[#2563EB]">
+                <p className="text-xs font-bold tracking-[0.2em] text-[#1E3A8A]">
                   {item.label}
                 </p>
                 <h2 className="mt-3 text-2xl font-bold tracking-[-0.03em] text-slate-950">
@@ -109,11 +110,11 @@ export default function Home() {
 
       <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
         <div className="flex flex-col gap-4 sm:max-w-2xl">
-          <p className="text-sm font-semibold tracking-[0.18em] text-[#2563EB]">
+          <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
             WHY BLUE SHIRT
           </p>
           <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
-            청남방이 메인페이지에서
+            대주종합청소가 메인페이지에서
             <br />
             먼저 보여줘야 할 신뢰 요소들입니다.
           </h2>
@@ -125,7 +126,7 @@ export default function Home() {
               key={item.value}
               className="rounded-[24px] border border-slate-200 bg-white p-7 shadow-[0_18px_50px_rgba(37,99,235,0.08)]"
             >
-              <p className="text-sm font-black tracking-[0.24em] text-[#2563EB]">
+              <p className="text-sm font-black tracking-[0.24em] text-[#1E3A8A]">
                 {item.value}
               </p>
               <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em] text-slate-950">
@@ -142,7 +143,7 @@ export default function Home() {
       <section className="border-y border-slate-200/80 bg-white/75 py-24 backdrop-blur">
         <div className="mx-auto grid w-full max-w-7xl gap-12 px-6 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
           <div>
-            <p className="text-sm font-semibold tracking-[0.18em] text-[#2563EB]">
+            <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
               PROCESS
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -163,7 +164,7 @@ export default function Home() {
                 key={item.step}
                 className="flex gap-5 rounded-[22px] border border-slate-200 bg-slate-50 p-5"
               >
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#2563EB] text-sm font-black text-white">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#1E3A8A] text-sm font-black text-white">
                   {index + 1}
                 </div>
                 <div>
@@ -181,7 +182,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
-        <div className="rounded-[30px] bg-[linear-gradient(135deg,#0F172A_0%,#1D4ED8_52%,#60A5FA_100%)] px-8 py-10 text-white shadow-[0_25px_80px_rgba(37,99,235,0.24)] sm:px-10 sm:py-12">
+        <div className="rounded-[30px] bg-[linear-gradient(135deg,#0F172A_0%,#1E3A8A_50%,#2563EB_100%)] px-8 py-10 text-white shadow-[0_25px_80px_rgba(30,58,138,0.24)] sm:px-10 sm:py-12">
           <div className="grid gap-10 lg:grid-cols-[1fr_0.8fr] lg:items-center">
             <div>
               <p className="text-sm font-semibold tracking-[0.18em] text-blue-100">
@@ -203,7 +204,7 @@ export default function Home() {
                 href="/contact"
                 className="rounded-2xl bg-white px-6 py-5 text-slate-950 transition-transform duration-200 hover:-translate-y-0.5"
               >
-                <p className="text-xs font-bold tracking-[0.2em] text-[#2563EB]">
+                <p className="text-xs font-bold tracking-[0.2em] text-[#1E3A8A]">
                   CONTACT PAGE
                 </p>
                 <p className="mt-2 text-xl font-bold tracking-[-0.02em]">

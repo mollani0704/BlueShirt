@@ -8,22 +8,24 @@ const navigationItems = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/20 bg-[#2563EB] text-white shadow-[0_14px_40px_rgba(15,23,42,0.18)]">
+    <header className="sticky top-0 z-50 border-b border-white/15 bg-[#1E3A8A] text-white shadow-[0_14px_40px_rgba(15,23,42,0.22)]">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
         <Link
           href="/"
           className="flex items-center gap-3 transition-transform duration-200 hover:-translate-y-0.5"
         >
           <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/35 bg-white/14 shadow-[inset_0_1px_0_rgba(255,255,255,0.24)] backdrop-blur">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-sm font-black tracking-[0.18em] text-[#2563EB]">
-              CN
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-sm font-black tracking-[0.18em] text-[#1E3A8A]">
+              DJ
             </div>
           </div>
           <div className="flex flex-col">
             <span className="text-[0.7rem] font-semibold uppercase tracking-[0.24em] text-white/70">
-              Clean Service
+              Total Cleaning
             </span>
-            <span className="text-xl font-bold tracking-[-0.02em]">청남방</span>
+            <span className="text-xl font-bold tracking-[-0.02em]">
+              대주종합청소
+            </span>
           </div>
         </Link>
 
@@ -33,7 +35,7 @@ export function SiteHeader() {
               <li key={item.label}>
                 <Link
                   href={item.href}
-                  className="rounded-full px-4 py-2 text-sm font-medium text-white/88 transition-colors duration-200 hover:bg-white/12 hover:text-white"
+                  className="rounded-full px-4 py-2 text-sm font-medium text-white/88 transition-colors duration-200 hover:bg-white/10 hover:text-white"
                 >
                   {item.label}
                 </Link>

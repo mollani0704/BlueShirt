@@ -5,7 +5,7 @@ const contactItems = [
   },
   {
     label: "EMAIL",
-    value: "hello@cheongnambang.kr",
+    value: "hello@daeju-cleaning.kr",
   },
   {
     label: "HOURS",
@@ -16,7 +16,7 @@ const contactItems = [
 export function ContactSection() {
   return (
     <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
-      <div className="rounded-[28px] bg-[linear-gradient(135deg,#0F172A_0%,#1D4ED8_55%,#60A5FA_100%)] px-8 py-10 text-white shadow-[0_25px_80px_rgba(37,99,235,0.24)] sm:px-10 sm:py-12">
+      <div className="rounded-[28px] bg-[linear-gradient(135deg,#0F172A_0%,#1E3A8A_48%,#2563EB_100%)] px-8 py-10 text-white shadow-[0_25px_80px_rgba(30,58,138,0.24)] sm:px-10 sm:py-12">
         <div className="grid gap-10 lg:grid-cols-[1fr_0.8fr] lg:items-end">
           <div>
             <p className="text-sm font-semibold tracking-[0.18em] text-blue-100">

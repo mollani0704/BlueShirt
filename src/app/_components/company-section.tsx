@@ -26,16 +26,16 @@ export function CompanySection() {
     <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
       <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
         <div>
-          <p className="text-sm font-semibold tracking-[0.18em] text-[#2563EB]">
+          <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
             COMPANY
           </p>
           <h1 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-5xl">
-            청남방은 깔끔함을 넘어
+            대주종합청소는 깔끔함을 넘어
             <br />
             신뢰까지 정리합니다.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-8 text-slate-600">
-            청남방은 사무실, 상업 공간, 주거 공간까지 다양한 현장에 맞춘 청소
+            대주종합청소는 사무실, 상업 공간, 주거 공간까지 다양한 현장에 맞춘 청소
             서비스를 제공합니다. 파란 셔츠처럼 단정하고 믿음직한 인상을 남기는
             것이 브랜드의 기준입니다.
           </p>

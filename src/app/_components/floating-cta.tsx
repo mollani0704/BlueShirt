@@ -6,7 +6,7 @@ const ctaItems = [
     description: "지금 바로 상담 연결",
     href: "tel:010-1234-5678",
     className:
-      "bg-[#2563EB] text-white shadow-[0_20px_45px_rgba(37,99,235,0.28)] hover:bg-[#1D4ED8]",
+      "bg-[#1E3A8A] text-white shadow-[0_20px_45px_rgba(30,58,138,0.28)] hover:bg-[#172554]",
   },
   {
     label: "카카오톡 상담",
