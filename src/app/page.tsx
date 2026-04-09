@@ -66,11 +66,11 @@ const workflow = [
 
 export default function Home() {
   return (
-    <div className="bg-[linear-gradient(180deg,#EAF1FF_0%,#FFFFFF_42%,#F8FBFF_100%)]">
+    <div className="bg-linear-to-b from-page-top via-white to-page-base">
       <section className="mx-auto flex min-h-[calc(100vh-81px)] w-full max-w-7xl items-center px-6 py-20 sm:px-8 lg:px-10">
         <div className="grid w-full gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div className="max-w-3xl">
-            <p className="mb-5 inline-flex rounded-full border border-[#BFDBFE] bg-white px-4 py-1.5 text-sm font-semibold text-[#1E3A8A] shadow-sm">
+            <p className="mb-5 inline-flex rounded-full border border-primary-border bg-white px-4 py-1.5 text-sm font-semibold text-primary shadow-sm">
               Daeju Total Cleaning Service
             </p>
             <h1 className="text-4xl font-black leading-tight tracking-[-0.04em] text-slate-950 sm:text-5xl">
@@ -93,7 +93,7 @@ export default function Home() {
                 href={item.href}
                 className="rounded-[24px] border border-slate-200 bg-white p-6 shadow-[0_18px_50px_rgba(37,99,235,0.08)] transition-transform duration-200 hover:-translate-y-1"
               >
-                <p className="text-xs font-bold tracking-[0.2em] text-[#1E3A8A]">
+                <p className="text-xs font-bold tracking-[0.2em] text-primary">
                   {item.label}
                 </p>
                 <h2 className="mt-3 text-2xl font-bold tracking-[-0.03em] text-slate-950">
@@ -110,7 +110,7 @@ export default function Home() {
 
       <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
         <div className="flex flex-col gap-4 sm:max-w-2xl">
-          <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
+          <p className="text-sm font-semibold tracking-[0.18em] text-primary">
             WHY BLUE SHIRT
           </p>
           <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -126,7 +126,7 @@ export default function Home() {
               key={item.value}
               className="rounded-[24px] border border-slate-200 bg-white p-7 shadow-[0_18px_50px_rgba(37,99,235,0.08)]"
             >
-              <p className="text-sm font-black tracking-[0.24em] text-[#1E3A8A]">
+              <p className="text-sm font-black tracking-[0.24em] text-primary">
                 {item.value}
               </p>
               <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em] text-slate-950">
@@ -143,7 +143,7 @@ export default function Home() {
       <section className="border-y border-slate-200/80 bg-white/75 py-24 backdrop-blur">
         <div className="mx-auto grid w-full max-w-7xl gap-12 px-6 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
           <div>
-            <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
+            <p className="text-sm font-semibold tracking-[0.18em] text-primary">
               PROCESS
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl">
@@ -164,7 +164,7 @@ export default function Home() {
                 key={item.step}
                 className="flex gap-5 rounded-[22px] border border-slate-200 bg-slate-50 p-5"
               >
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#1E3A8A] text-sm font-black text-white">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-sm font-black text-white">
                   {index + 1}
                 </div>
                 <div>
@@ -182,10 +182,10 @@ export default function Home() {
       </section>
 
       <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
-        <div className="rounded-[30px] bg-[linear-gradient(135deg,#0F172A_0%,#1E3A8A_50%,#2563EB_100%)] px-8 py-10 text-white shadow-[0_25px_80px_rgba(30,58,138,0.24)] sm:px-10 sm:py-12">
+        <div className="rounded-[30px] bg-linear-to-br from-slate-950 via-primary to-secondary px-8 py-10 text-white shadow-[0_25px_80px_rgba(30,58,138,0.24)] sm:px-10 sm:py-12">
           <div className="grid gap-10 lg:grid-cols-[1fr_0.8fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold tracking-[0.18em] text-blue-100">
+              <p className="text-sm font-semibold tracking-[0.18em] text-primary-muted">
                 QUICK CONTACT
               </p>
               <h2 className="mt-4 text-3xl font-black tracking-[-0.03em] sm:text-4xl">
@@ -193,7 +193,7 @@ export default function Home() {
                 <br />
                 바로 행동할 수 있게 만듭니다.
               </h2>
-              <p className="mt-5 max-w-2xl text-base leading-8 text-blue-50/90">
+              <p className="mt-5 max-w-2xl text-base leading-8 text-primary-soft/90">
                 우측 하단 CTA 버튼과 함께, 메인페이지에서도 상담 유도를 한 번 더
                 강조해 전환 흐름을 자연스럽게 이어갑니다.
               </p>
@@ -204,7 +204,7 @@ export default function Home() {
                 href="/contact"
                 className="rounded-2xl bg-white px-6 py-5 text-slate-950 transition-transform duration-200 hover:-translate-y-0.5"
               >
-                <p className="text-xs font-bold tracking-[0.2em] text-[#1E3A8A]">
+                <p className="text-xs font-bold tracking-[0.2em] text-primary">
                   CONTACT PAGE
                 </p>
                 <p className="mt-2 text-xl font-bold tracking-[-0.02em]">
@@ -215,7 +215,7 @@ export default function Home() {
                 href="/cases"
                 className="rounded-2xl border border-white/20 bg-white/10 px-6 py-5 text-white transition-transform duration-200 hover:-translate-y-0.5"
               >
-                <p className="text-xs font-bold tracking-[0.2em] text-blue-100">
+                <p className="text-xs font-bold tracking-[0.2em] text-primary-muted">
                   CASES PAGE
                 </p>
                 <p className="mt-2 text-xl font-bold tracking-[-0.02em]">

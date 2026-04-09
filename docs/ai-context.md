@@ -12,7 +12,7 @@
 
 ## Design Rules
 
-- Primary Color : #1E3A8A
-- 보조 Color : #2563EB
+- Primary Color : #0d9488;
+- 보조 Color : #14b8a6;
 - Background : white
 - Card Radius: rounded-xl

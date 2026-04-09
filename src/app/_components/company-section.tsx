@@ -26,7 +26,7 @@ export function CompanySection() {
     <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
       <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
         <div>
-          <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
+          <p className="text-sm font-semibold tracking-[0.18em] text-primary">
             COMPANY
           </p>
           <h1 className="mt-4 text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-5xl">

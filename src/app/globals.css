@@ -1,26 +1,38 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
   --foreground: #0f172a;
-  --primary: #1e3a8a;
-  --secondary: #2563eb;
-  --primary-soft: #eff6ff;
-  --primary-border: #bfdbfe;
+  --primary: #0d9488;
+  --primary-dark: #0f766e;
+  --secondary: #14b8a6;
+  --primary-soft: #f0fdfa;
+  --primary-border: #99f6e4;
+  --page-base: #f8fffe;
+  --page-top: #e6faf7;
+  --primary-muted: #ccfbf1;
+  --kakao: #fee500;
+  --kakao-hover: #facc15;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
   --color-secondary: var(--secondary);
   --color-primary-soft: var(--primary-soft);
   --color-primary-border: var(--primary-border);
+  --color-page-base: var(--page-base);
+  --color-page-top: var(--page-top);
+  --color-primary-muted: var(--primary-muted);
+  --color-kakao: var(--kakao);
+  --color-kakao-hover: var(--kakao-hover);
   --font-sans:
-    "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
+    'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
   --font-mono:
-    "JetBrains Mono", "Fira Code", Consolas, "Liberation Mono", monospace;
+    'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', monospace;
 }
 
 html {

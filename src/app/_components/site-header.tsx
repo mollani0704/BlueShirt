@@ -8,14 +8,14 @@ const navigationItems = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/15 bg-[#1E3A8A] text-white shadow-[0_14px_40px_rgba(15,23,42,0.22)]">
+    <header className="sticky top-0 z-50 border-b border-white/15 bg-primary text-white shadow-[0_14px_40px_rgba(15,23,42,0.22)]">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-10">
         <Link
           href="/"
           className="flex items-center gap-3 transition-transform duration-200 hover:-translate-y-0.5"
         >
           <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/35 bg-white/14 shadow-[inset_0_1px_0_rgba(255,255,255,0.24)] backdrop-blur">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-sm font-black tracking-[0.18em] text-[#1E3A8A]">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-sm font-black tracking-[0.18em] text-primary">
               DJ
             </div>
           </div>

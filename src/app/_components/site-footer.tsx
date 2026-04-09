@@ -12,7 +12,7 @@ export function SiteFooter() {
       <div className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-14 sm:px-8 lg:grid-cols-[1.2fr_0.8fr] lg:px-10">
         <div>
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#1E3A8A] text-sm font-black tracking-[0.18em] text-white">
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-sm font-black tracking-[0.18em] text-white">
               DJ
             </div>
             <div>
@@ -41,7 +41,7 @@ export function SiteFooter() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="transition-colors duration-200 hover:text-[#2563EB]"
+                    className="transition-colors duration-200 hover:text-secondary"
                   >
                     {link.label}
                   </Link>

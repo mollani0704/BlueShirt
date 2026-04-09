@@ -23,7 +23,7 @@ export function CasesSection() {
   return (
     <section className="mx-auto w-full max-w-7xl px-6 py-24 sm:px-8 lg:px-10">
       <div className="flex flex-col gap-4 sm:max-w-2xl">
-        <p className="text-sm font-semibold tracking-[0.18em] text-[#1E3A8A]">
+        <p className="text-sm font-semibold tracking-[0.18em] text-primary">
           CASES
         </p>
         <h1 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-5xl">
@@ -44,9 +44,9 @@ export function CasesSection() {
             key={item.title}
             className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50"
           >
-            <div className="h-44 bg-[linear-gradient(135deg,#1E3A8A_0%,#2563EB_58%,#DBEAFE_100%)]" />
+            <div className="h-44 bg-linear-to-br from-primary via-secondary to-primary-muted" />
             <div className="p-6">
-              <p className="text-xs font-bold tracking-[0.2em] text-[#1E3A8A]">
+              <p className="text-xs font-bold tracking-[0.2em] text-primary">
                 {item.label}
               </p>
               <h2 className="mt-3 text-xl font-bold text-slate-950">

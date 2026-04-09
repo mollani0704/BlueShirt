@@ -6,14 +6,14 @@ const ctaItems = [
     description: "지금 바로 상담 연결",
     href: "tel:010-1234-5678",
     className:
-      "bg-[#1E3A8A] text-white shadow-[0_20px_45px_rgba(30,58,138,0.28)] hover:bg-[#172554]",
+      "bg-primary text-white shadow-[0_20px_45px_rgba(30,58,138,0.28)] hover:bg-primary-dark",
   },
   {
     label: "카카오톡 상담",
     description: "실시간 톡 문의",
     href: "https://open.kakao.com/",
     className:
-      "bg-[#FEE500] text-slate-950 shadow-[0_18px_40px_rgba(15,23,42,0.14)] hover:bg-[#FACC15]",
+      "bg-kakao text-slate-950 shadow-[0_18px_40px_rgba(15,23,42,0.14)] hover:bg-kakao-hover",
   },
 ];
 

@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { FloatingCta } from "./_components/floating-cta";
-import { SiteHeader } from "./_components/site-header";
-import { SiteFooter } from "./_components/site-footer";
+import type {Metadata} from 'next';
+import './globals.css';
+import {FloatingCta} from './_components/floating-cta';
+import {SiteHeader} from './_components/site-header';
+import {SiteFooter} from './_components/site-footer';
 
 export const metadata: Metadata = {
-  title: "대주종합청소 | 청소회사 소개페이지",
+  title: '대주종합청소 | 청소회사 소개페이지',
   description:
-    "대주종합청소의 전문 청소 서비스와 작업 철학을 소개하는 페이지입니다.",
+    '대주종합청소의 전문 청소 서비스와 작업 철학을 소개하는 페이지입니다.',
 };
 
 export default function RootLayout({
